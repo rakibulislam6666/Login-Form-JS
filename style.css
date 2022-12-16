@@ -1,0 +1,47 @@
+body{
+  background: gainsboro;
+}
+
+form{
+  border-radius: 15px;
+  background: white;
+  width: 300px;
+  height: 300px;
+  border: 2px solid whitesmoke ;
+  text-align: center;
+  margin-top: 10%;
+
+}
+
+input[type=email], input[type=password]{
+  width: 250px;
+  height: 40px;
+  border: 2px solid deepskyblue;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: gainsbo;
+  margin-bottom: 10px;
+  
+  
+}
+input[type=submit]{
+  background: deepskyblue;
+  width: 255px;
+  height: 40px;
+  border: 1px solid deepskyblue;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+h3{
+  font-size: 30px;
+  height: 5px;
+  margin-bottom: 50px;
+  color: deepskyblue;
+  font-weight: bolder;
+}
+input[type=submit] :hover{
+  border: 1px solid black;
+}
